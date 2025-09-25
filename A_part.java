@@ -1,0 +1,12 @@
+public class SumUsingAutoboxing {
+    public static void main(String[] args) {
+        int numbers[] = {10, 20, 30, 40, 50};
+        Integer sum = 0;
+
+        for (int num : numbers) {
+            sum += num;
+        }
+
+        System.out.println("Sum of integers using Autoboxing & Unboxing: " + sum);
+    }
+}
